@@ -36,12 +36,12 @@
 }
 
 .artistsSection{
-    background-color: #8D165F ;
+    background-color: #0047AB ;
 }
 
 /*No funciona*/
 a:hover{
-    color: #8D165F ;
+    color: #0047AB ;
 }
 .imgBeArtist{
     max-width: 800px;
@@ -120,4 +120,12 @@ a:hover{
     font-weight: 900;
     font-style: italic;
   }
-  
+  .card-img-top{
+    max-height: 300px; 
+    object-fit: cover;
+    transition: transform 0.3s ease;
+
+  }
+  .card-img-top:hover{
+    transform: scale(1.03);
+  }
