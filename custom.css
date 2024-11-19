@@ -129,3 +129,7 @@ a:hover{
   .card-img-top:hover{
     transform: scale(1.03);
   }
+
+  .img-fluid {
+    width: 500vw;
+  }
