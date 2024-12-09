@@ -127,9 +127,9 @@
 <div class="container mt-4 mb-5 table-responsive">
     <table class="table text-center table-borderless">
           <tr class="tr">
+            <td><a class="nav-link" href="#"><img src="./icons/dance.png" alt="" class="icon"></a></td>
+            <td><a class="nav-link" href="#" ><img src="./icons/music.png" alt="" class="icon"></a></td>
             <td><a class="nav-link" href="#"><img src="./icons/paint.png" alt="" class="icon"></a></td>
-            <td><a class="nav-link" href="#" ><img src="./icons/photo.png" alt="" class="icon"></a></td>
-            <td><a class="nav-link" href="#"><img src="./icons/sculpture.png" alt="" class="icon"></a></td>
             <td><a class="nav-link" href="#"><img src="./icons/jewelry.png" alt="" class="icon"></a></td>
             <td><a class="nav-link" href="#"><img src="./icons/digital.png" alt="" class="icon"></a></td>
             <td><a class="nav-link" href="#"><img src="./icons/restoration.png" alt="" class="icon"></a></td>
@@ -137,9 +137,9 @@
             <td><a class="nav-link" href="#"><img src="./icons/3d.png" alt="" class="icon"></a></td>
           </tr>
           <tr>
+            <td><a href="" class="text-secondary" style="text-decoration: none;">Baile</a></td>
+            <td><a href="" class="text-secondary" style="text-decoration: none;">Música</a></td>
             <td><a href="" class="text-secondary" style="text-decoration: none;">Pintura</a></td>
-            <td><a href="" class="text-secondary" style="text-decoration: none;">Fotografía</a></td>
-            <td><a href="" class="text-secondary" style="text-decoration: none;">Alfarería</a></td>
             <td><a href="" class="text-secondary" style="text-decoration: none;">Música</a></td>
             <td><a href="" class="text-secondary" style="text-decoration: none;">Baile</a></td>
             <td><a href="" class="text-secondary" style="text-decoration: none;">Carpitería y restauración</a></td>
@@ -260,60 +260,39 @@
 
 <!-- PREMIUM SECTION-->
 <div class="container artistsSection shadow-lg mb-5 mt-5 rounded">
-    <h3 class="text-white text-center my-5 pt-5">Artistas destacados</h3>
-    <!-- No consigo alinear las tarjetas al centro y que al hacerla pequeña se vea una sola-->
-    <div class="row justify-content-center">
-      <div class="col offset-0 offset-md-1">
-        <div class="row">
-          <div class="col col-12 col-md-5 ">
-            <div class="card mb-3 border-0" >
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="./img/users/feli/profilePicture/Pasted image.png" class="img-fluid rounded-start" alt="..." style="object-fit: cover;">
-                </div>
-                <div class="col-md-8 ">
-                  <div class="card-body ">
-                    <h5 class="card-title">Feli Sánchez</h5>
-                    <p class="card-text">Acrylic artist 🦚
-                                        Custom-made paintings 🎨
-                                        DM for prices and color combinations
-                                        Sevilla.</p>
-                    <p class="card-text"><small class="text-muted">Sevilla</small></p>
-                    <div class="text-center">
-                      <a href="./html/artistPage.html" class="btn btn-dark" >Ver obras</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col col-12 col-md-5">
-            <div class="card mb-3 border-0" >
-              <div class="row g-0">
-                <div class="col-md-4" >
-                  <img src="./img/users/aytoDosHermanas/logo-delegacion-de-deportes.png" class="img-fluid rounded-start" alt="..." style="object-fit: cover;">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Taller de restauración Montequinto</h5>
-                    <p class="card-text">Aceptamos encargos.</p>
-                    <p class="card-text"><small class="text-muted">Dos Hermanas</small></p>
-                    <div class="text-center">
-                      <a href="#" class="btn btn-dark" >Ver obras</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    </div>
-    <div class="row my-5 pb-5">
-        <div class="col text-center">
-            <a class="btn btn-lg" style="background-color: #FFB700;" >Descubrir</a>
-        </div>
-    </div>
+  <h3 class="text-white text-center my-5 pt-5">¿Todavía no formas parte del Club Connect?</h3>
+
+  <!-- Comparativa Socio Premium vs No Premium -->
+  <div class="row mb-5 text-center  ">
+      <!-- Socio No Premium -->
+      <div class="col-md-6 me-md-2 pe-2 socio-no-premium">
+          <h4 class="text-white">Socio No Premium</h4>
+          <ul class="list-unstyled ">
+              <li><i class="fas fa-check-circle"></i> Comisión del 15% por transacción</li>
+              <li><i class="fas fa-check-circle"></i> Clases presenciales únicamente</li>
+              <li><i class="fas fa-check-circle"></i> Acceso a herramientas gratuitas</li>
+          </ul>
+      </div>
+
+      <!-- Socio Premium -->
+      <div class="col-md-4 me-md-2 socio-premium">
+          <h4 class="text">Socio Premium (Club Connect)</h4>
+          <ul class="list-unstyled">
+              <li><i class="fas fa-check-circle text-success"></i> Comisión del 0% por transacción</li>
+              <li><i class="fas fa-check-circle text-success"></i> Clases presenciales y online disponibles</li>
+              <li><i class="fas fa-check-circle text-success"></i> Acceso a herramientas exclusivas</li>
+          </ul>
+      </div>
+  </div>
+
+  <!-- Precios y llamada a la acción -->
+  <div class="row my-5 text-center pb-5">
+      <div class="col">
+          <h5 class="text-white">¡Únete a Club Connect y disfruta de todos los beneficios!</h5>
+          <p class="text-white">Solo 10€ al mes o 69€ al año. Accede a más funciones y ventajas exclusivas.</p>
+          <a class="btn btn-lg" style="background-color: #FFB700;" href="#registro">¡Únete ahora!</a>
+      </div>
+  </div>
 </div>
 
 <!--CARD DEL LOCAL-->

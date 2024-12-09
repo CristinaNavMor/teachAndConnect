@@ -133,3 +133,52 @@ a:hover{
   .img-fluid {
     width: 500vw;
   }
+
+  .socio-premium{
+    background-color: #ffc83c; /* Segundo color: amarillo */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra fluida */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación fluida */
+}
+
+.socio-premium:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Sombra más intensa en hover */
+}
+
+.socio-premium h4 {
+    font-size: 1.5rem; /* Título más grande */
+    font-weight: bold; /* Texto destacado */
+}
+
+.socio-premium ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin margen interno */
+
+}
+
+.socio-premium ul li {
+    margin-bottom: 10px; /* Espaciado entre elementos */
+    display: flex; /* Alinear icono y texto */
+    align-items: center;
+    font-weight: bold; 
+}
+
+.socio-premium ul li i {
+    margin-right: 10px; /* Separación entre icono y texto */
+    font-size: 1.2rem; /* Icono más grande */
+    
+}
+
+.socio-no-premium ul li i {
+    margin-right: 10px; /* Separación entre icono y texto */
+    font-size: 1.2rem; /* Icono más grande */
+    margin-bottom: 10px;
+    align-items: center;
+    list-style-type: none; /* Sin viñetas */
+    
+}
+.socio-no-premium li{
+  color: rgb(218, 223, 255);
+}
