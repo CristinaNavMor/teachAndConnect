@@ -182,3 +182,118 @@ a:hover{
 .socio-no-premium li{
   color: rgb(218, 223, 255);
 }
+
+
+
+
+
+.premium2 {
+  background-color: #0047AB; 
+  color: #ffffff; 
+  padding: 20px; 
+  border-radius: 8px; 
+}
+
+.premium2 h3 {
+  color: #ffffff;
+}
+
+.premium2 p {
+  color: #e6e6e6; 
+}
+
+.premium2 ul {
+  color: #ffffff; 
+}
+
+
+.premium2 ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+
+.premium2 .list-group-item {
+  background-color: transparent; 
+  color: #ffffff; 
+  border: none; 
+}
+
+.premium2 .list-group-item i {
+  color: #198754;
+}
+
+.premium2 .list-group-item strong {
+  color: #ffffff; 
+}
+
+.premium2 .boton-premium {
+  background-color: #FFB700; 
+  color: #ffffff; 
+  border-radius: 64px;
+}
+
+.premium2 .text-muted {
+  color: #e6e6e6  !important; 
+}
+
+.premium2 img {
+  max-width: 70%; 
+  height: auto; 
+  margin: 0 auto; 
+  display: block; 
+}
+
+
+.newsletter {
+  font-size: 1.2rem; 
+  font-weight: bold; 
+  color: #0047AB; 
+  text-align: center;
+}
+
+
+
+#input-newsletter:focus {
+  border-color: #0047AB;
+  outline: none; 
+}
+
+
+
+#boton-newsletter:hover {
+  background-color: #003580; 
+}
+
+
+
+#newsletter-form {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+#input-newsletter {
+  flex: 1; 
+  max-width: 70%; 
+  padding: 10px 15px; 
+  font-size: 1rem; 
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+  margin-right: 10px;
+}
+
+#boton-newsletter {
+  padding: 10px 20px; 
+  text-align: center;
+  background-color: #0047AB; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 0.9rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  max-width: 130px;
+}
+
