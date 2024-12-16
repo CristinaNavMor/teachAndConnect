@@ -88,27 +88,28 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        <div class="carousel-item carouselImage" data-bs-interval="3000">
+          <img src="./img/carousel/carousel1.jpg" class="d-block w-100 align-middle" alt="..." style="max-width: 100%; height: auto; object-fit: cover;">
+          <div class="carousel-caption d-none d-sm-block sliders">
+            <h5>Descubre profesores por tu zona</h5>
+            <p>Aprende algo nuevo</p>
+            <a href="./html/teachers.html"><button class="btn btn-light">Ver profesores</button></a>
+          </div>
+        </div>
         <div class="carousel-inner carouselHeight" >
           <div class="carousel-item active carouselImage " data-bs-interval="3000">
-            <img src="./img/carousel/carousel1.jpg" class="d-block w-100  align-middle" alt="..." style="max-width: 100%; height: auto; object-fit: cover;">
+            <img src="./img/carousel/carousel2.jpg" class="d-block w-100  align-middle" alt="..." style="max-width: 100%; height: auto; object-fit: cover;">
             <div class="carousel-caption d-none d-sm-block sliders">
-              <h5>Tu web de compra venta de arte local</h5>
-            </div>
-          </div>
-          <div class="carousel-item carouselImage" data-bs-interval="3000">
-            <img src="./img/carousel/carousel2.jpg" class="d-block w-100 align-middle" alt="..." style="max-width: 100%; height: auto; object-fit: cover;">
-            <div class="carousel-caption d-none d-sm-block sliders">
-              <h5>Descubre a los artistas de tu zona</h5>
-              <p>Y apoya al comercio local.</p>
-              <button class="btn btn-light">Ver los productos</button>
+              <h5>Encuentra tu sitio para impartir clases</h5>
+              <a href="#localCard"><button class="btn btn-light">Ver local</button></a>
             </div>
           </div>
           <div class="carousel-item carouselImage" data-bs-interval="3000">
             <img src="./img/carousel/carousel3.jpg" class="d-block w-100 align-middle" alt="..." style="max-width: 100%; height: auto; object-fit: cover;">
             <div class="carousel-caption d-none d-sm-block sliders">
-              <h5>Saca al artista que hay en ti</h5>
-              <p>Y comparte tu arte con otros</p>
-              <button class="btn btn-light">Regístrate</button>
+              <h5>Saca al profesor que hay en ti</h5>
+              <p>Y comparte tus conocimientos con otros</p>
+              <a href="./html/registration.html"><button class="btn btn-light">Regístrate</button></a>
             </div>
           </div>
         </div>
@@ -121,8 +122,8 @@
           <span class="visually-hidden">Siguiente</span>
         </button>
       </div>
-<!-- Cathegories-->
 
+<!-- Cathegories-->
 <div class="container mt-4 mb-5 table-responsive">
     <table class="table text-center table-borderless">
           <tr class="tr">
@@ -298,7 +299,7 @@
 <br>
 
 <!--CARD DEL LOCAL-->
-<div class="container mb-5">
+<div id="localCard" class="container mb-5">
   <div class="card mb-3">
     <div class="row g-0 flex-column flex-md-row">
       <div class="col-md-8">
